@@ -8,6 +8,8 @@ Rails 3 validation to ensure that two ActiveModel associations are related to ea
       validates :resume, :belongs_to => :user
     end
 
+The validation checks that `job_application.resume.user` is the same as `job_application.user`.
+
 Installation:
 
     gem 'validates-belongs-to'
