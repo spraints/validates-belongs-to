@@ -50,5 +50,6 @@ class ValidatesBelongsToTest < Test::Unit::TestCase
     obj.thing1.thing2 = :thing2
     obj.thing2 = :other_thing
     assert !obj.valid?, 'not valid with non-matching related objects'
+    assert_equal ['Thing1 must have the same thing2 as this record'], obj.errors.full_messages, 'error message'
   end
 end

@@ -1,0 +1,4 @@
+en:
+  errors:
+    messages:
+      belongs_to: 'must have the same %{with} as this record'

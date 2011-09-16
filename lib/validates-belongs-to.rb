@@ -23,3 +23,6 @@ class BelongsToValidator < ActiveModel::EachValidator
     end
   end
 end
+
+require 'active_support/i18n'
+I18n.load_path << File.dirname(__FILE__) + '/validates-belongs-to/locale/en.yml'
