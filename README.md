@@ -1,3 +1,5 @@
+[![Build Status](https://secure.travis-ci.org/spraints/validates-belongs-to.png)](http://travis-ci.org/spraints/validates-belongs-to)
+
 Rails 3 validation to ensure that two ActiveModel associations are related to each other.
 
     class JobApplication
