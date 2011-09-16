@@ -1,3 +1,5 @@
+require 'active_model'
+
 # Validation to ensure that two ActiveModel associations are related to each other.
 #
 #  class JobApplication
